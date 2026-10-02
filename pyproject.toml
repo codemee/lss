@@ -1,10 +1,15 @@
 [project]
 name = "lss"
-version = "0.1.0"
+version = "0.1.1"
 description = "List serial ports and filter by keyword."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["pyserial>=3.5,<4"]
+
+[project.urls]
+Homepage = "https://github.com/codemee/lss"
+Repository = "https://github.com/codemee/lss"
+Issues = "https://github.com/codemee/lss/issues"
 
 [project.scripts]
 lss = "lss.cli:main"
