@@ -1,0 +1,14 @@
+[project]
+name = "lss"
+version = "0.1.0"
+description = "List serial ports and filter by keyword."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pyserial>=3.5,<4"]
+
+[project.scripts]
+lss = "lss.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
