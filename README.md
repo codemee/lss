@@ -8,18 +8,20 @@ A Python CLI that lists the system's serial ports, including the device path,
 port name, and device description. Supports Windows, macOS, and Linux.
 Requires Python 3.10 or newer.
 
+The PyPI package is named `lss-serial-ports`; the installed command is `lss`.
+
 ### Install
 
 Install from PyPI with uv:
 
 ```console
-uv tool install lss
+uv tool install lss-serial-ports
 ```
 
 Or with pip:
 
 ```console
-python -m pip install lss
+python -m pip install lss-serial-ports
 ```
 
 ### Usage
@@ -72,6 +74,8 @@ restart your terminal.
 以 Python 列出系統目前的 serial port，包含連接埠路徑、名稱與裝置描述。
 使用 uv 管理環境與依賴。
 
+PyPI 套件名稱為 `lss-serial-ports`，安裝後的指令為 `lss`。
+
 ## 執行
 
 ```powershell
@@ -104,7 +108,7 @@ Windows、macOS 與 Linux 的裝置描述可能不同，部分裝置不提供描
 從 PyPI 安裝（需要 Python 3.10 或更新版本）：
 
 ```powershell
-uv tool install lss
+uv tool install lss-serial-ports
 ```
 
 在專案資料夾執行：

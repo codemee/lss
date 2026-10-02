@@ -27,7 +27,7 @@ jobs:
         env:
           RELEASE_TAG: ${{ github.event.release.tag_name }}
         run: |
-          uv run python -c 'import os; from importlib.metadata import version; assert os.environ["RELEASE_TAG"] == "v" + version("lss"), "Release tag does not match package version"'
+          uv run python -c 'import os; from importlib.metadata import version; assert os.environ["RELEASE_TAG"] == "v" + version("lss-serial-ports"), "Release tag does not match package version"'
       - name: Test
         run: uv run python -m unittest discover -s tests -v
       - name: Build
